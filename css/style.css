@@ -20,6 +20,11 @@ header {
     margin-top: 3rem;
 }
 
+.twit{
+    margin-left: 25%;
+    width: 60%;
+}
+
 img {
     max-width: 100%;
 }
@@ -42,11 +47,13 @@ p{
 .project {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    align-items: center;
 }
 
 .project > div {
     padding: 1em;
 }
+
 
 .mylinks{
     display: grid;
